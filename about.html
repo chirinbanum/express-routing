@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <style>
+      
+
+#navbar{
+    position: sticky;
+    top:0;
+    left:0;
+    z-index:100;
+    padding: .5rem 5rem;
+    box-shadow: :5px 5px 20px rgba(0,0,0,.5);
+    background:black;
+}
+.navbar-brand{
+    font-size: 25px;
+    font-weight: :800;
+    color:#29f700 !important; 
+}
+#navbarSupportedContent a{
+    color:#fff;
+    border-bottom:2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom:2px solid #29f700;
+}
+#navbarSupportedContent button{
+    background: #29f700;
+}
+section{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#home{
+    background: url(https://i.pinimg.com/originals/33/ef/8b/33ef8b9c0b902154a6cd4103a21275ef.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#contact{
+    background: url(https://www.bhmpics.com/downloads/background-hd-white-Wallpapers/3.white-abstract-wallpaper_23-2148830027.jpg);
+    background-size: cover;
+   height:50px;
+   width: 100%;
+
+}
+#home h1{
+    font-size: 100px;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px  #ccc,
+    0px 2px 0px  #ccc,
+    0px 3px 0px  #ccc,
+    0px 4px 0px  #ccc,
+    0px 5px 0px  #ccc,
+    0px 6px 0px  #ccc,
+    0px 7px 0px  #ccc,
+    
+}
+
+.signin{
+    background: green !important;
+    color: white !important;
+    height: 36px;
+    
+}
+.t1{
+    height: 34px;
+}
+.contact-info {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact-info h2 {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-icons a {
+    color:aliceblue;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 0px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+    </style>
+</head>
+<body>
+  <header>
+    <ul>
+      <li>
+        <a href="/about"></a>
+      </li>
+    </ul>
+  </header>
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">SPICES</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false" >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/product">Product</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/contact">Contact</a>
+            </li>
+          </ul>
+          <button class="btn p-2 my-lg-0 my-2" >Sign In</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About -->
+    <br>
+    <center><h1>This is our about page</h1></center><br><br>
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 col-md-12">
+        <img src="https://4.imimg.com/data4/QP/WK/MY-25486611/organic-spices.jpg" alt="About Image 1" width="650" style="border-radius: 50%">
+      </div>
+      <div class="col-lg-6 col-md-12">
+        <br><h2>About Us</h2><br>
+        <p>Welcome to SPICES, your go-to destination for high-quality organic spices. We are passionate about bringing you the finest spices from around the world, carefully sourced and curated to enhance your culinary experience.</p>
+        <p>At SPICES, we believe in the power of nature and the importance of sustainability. That's why all our spices are organically grown and harvested, ensuring not only great taste but also a positive impact on the environment and local communities.</p>
+        <p>Whether you're a seasoned chef or an enthusiastic home cook, our diverse range of spices will inspire your creativity and elevate your dishes to new heights. Join us on a journey of flavor exploration and culinary delight!</p>
+      </div>
+    </div>
+  </div>
+
+    
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+
